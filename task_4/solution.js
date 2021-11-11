@@ -22,7 +22,7 @@ function renderProductsCards(json) {
     clearProducts();
 
     let products = parseProducts(json);
-    let length  = products.length
+    let length  = products.length;
 
     let i = 0;
     while (i <= products.length-1) {
